@@ -22,14 +22,14 @@
 <div class="header-top-area">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
-		<a href=""><ion-icon name="mail-open-outline"></ion-icon>sapport@gmail.com</a><span class="separator">|</span> 
-		<a href=""><ion-icon name="call-outline"></ion-icon> 01827578768</a><span class="separator">|</span> 
-		<a href=""><ion-icon name="time-outline"></ion-icon> mon-fri,9am-10pm</a><span class="separator">|</span>  
-			</div>
-			<div class="col-md-6 text-end"> 
-			  <div class="top-menu text-light"> 
-			    <ul id="navigation"> 
+		<div class="col-md-6 col-sm-12">
+		<a href=""><ion-icon name="mail-open-outline"></ion-icon>sapport@gmail.com</a><span class="separator">|</span>
+		<a href=""><ion-icon name="call-outline"></ion-icon> 01827578768</a><span class="separator">|</span>
+		<a href=""><ion-icon name="time-outline"></ion-icon> mon-fri,9am-10pm</a>
+		</div>
+			<div class="col-md-6 col-sm-12 ">
+			  <div class="top-menu text-light">
+			    <ul id="navigations">
 				   <li><a href="">event & news</a></li>
 				   <li><a href="">covid-19 <ion-icon name="chevron-down-outline"></ion-icon></a></li>
 				   <li><a href="">Renweb</a></li>
@@ -42,66 +42,115 @@
 					   	<li><a href="">dropdown</a></li>
 					</ul>
 				   </li>
-				</div>  
+				</ul>
 			  </div>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="main-menu-area">
+
+
+<!--<div class="main-menu-area">-->
+<!--	<div class="container">-->
+<!--		<div class="row">-->
+<!--			<div class="col-md-3 col-sm-12">-->
+<!--			    <div class="logo text-light"><a href="#"><img src="img/logo1.png"/> </a></div>-->
+<!--				<div class="menubar"><ion-icon name="menu-outline"></ion-icon></div>-->
+<!--			</div>-->
+<!--			<div class="col-md-9 col-sm-12">-->
+<!--			   <div class="mainmenu">-->
+<!--			   	<ul id="navigation" >-->
+
+<!--			   		<li><a href="">DISCOVER <ion-icon name="chevron-down-outline"></ion-icon></a>-->
+<!--					   <ul>-->
+<!--					   	<li><a href="">dropdown</a></li>-->
+<!--					   	<li><a href="">dropdown</a></li>-->
+<!--					   	<li><a href="">dropdown</a></li>-->
+<!--					   </ul>-->
+<!--					</li>-->
+<!--			   		<li><a href="">ACADEMICS</a></li>-->
+<!--			   		<li><a href="">ADMISSIONS & AID</a></li>-->
+<!--			   		<li><a href="">ARTS</a></li>-->
+<!--			   		<li><a href="">ATHLETICS</a></li>-->
+<!--			   		<li><a href="">EVENTS</a></li>-->
+<!--			   	</ul>-->
+<!--			   </div>-->
+<!--			   <div class="header-search-area">-->
+<!--			   	<form action="">-->
+<!--				   <input type="" placeholder="keywords....."/>-->
+<!--				</form>-->
+<!--			   </div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--	</div>-->
+<!--</div>-->
+
+<nav class="navbar navbar-expand-lg navbar-dark main-menu-area" style="background: #1a365f;">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-			    <div class="logo text-light"><a href="#"><h2>school</h2></a></div>
-			</div>
-			<div class="col-md-9"> 
-			   <div class="mainmenu">
-			   	<ul id="navigation">
-			   		<li><a href="">home <ion-icon name="chevron-down-outline"></ion-icon></a>
-					   <ul>
-					   	<li><a href="">dropdown</a></li>
-					   	<li><a href="">dropdown</a></li>
-					   	<li><a href="">dropdown</a></li>
-					   </ul>
-					</li>
-			   		<li><a href="">about us</a></li>
-			   		<li><a href="">services</a></li>
-			   		<li><a href="">work</a></li>
-			   		<li><a href="">blog</a></li>
-			   		<li><a href="">contact</a></li>
-			   	</ul>
-			   </div>
-			   <div class="header-search-area">
-			   	<form action="">
-				   <input type="" placeholder="keywords....."/>
-				</form>
-			   </div>
-			</div>
+		<a class="navbar-brand logo" href="#">
+			<img src="img/logo1.png" alt=""  class="d-inline-block align-text-top">
+
+		</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ms-auto mb-2 mb-lg-0 py-4">
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#">DISCOVER</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">ACADEMICS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">ADMISSIONS & AID</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						ARTS
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item" href="#">Action</a></li>
+						<li><a class="dropdown-item" href="#">Another action</a></li>
+						<li><hr class="dropdown-divider"></li>
+						<li><a class="dropdown-item" href="#">Something else here</a></li>
+					</ul>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">ATHLETICS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">EVENTS</a>
+				</li>
+
+			</ul>
 		</div>
 	</div>
-</div>
-
+</nav>
 <section class="hero"> 
  <div class="container">
  	<div class="row">
- 		<div class="col-md-3"> 
+ 		<div class="col-md-3 col-sm-12">
 			<div class="main-aria-sidebar"> 
-			<p>PIONEER VALLEY CHRISTIAN ACADEMY</p>
+			<p>ROSE ACADEMY</p>
 			 <h4>
 			   INTELLECTUALLY DEVELOPED
 			  </h4>			 
 			  <h4>
 		       COMPASSIONATELY INSPIRED
 			  </h4>
-			   <div class="custom-btn btn-color-one mt-5">explore admission <ion-icon name="chevron-forward-outline"></ion-icon></div>
-			   <div class="custom-btn btn-color-one">vertual tour  <ion-icon name="chevron-forward-outline"></ion-icon></div>
+             <div class="hero-btn-area">
+				 <div class="custom-btn btn-color-one ">explore admission  <ion-icon name="chevron-forward-outline"></ion-icon></div>
+				 <div class="custom-btn btn-color-one">vertual tour   <ion-icon name="chevron-forward-outline"></ion-icon></div>
+			 </div>
 		    </div>
 		 </div>
- 		<div class="col-md-9">
+
+ 		<div class="col-md-9 col-sm-12">
          <div class="main"> 
 		     <video src="school.mp4" autoplay loop muted type="mp4" ></video>
 			 <img src="img/mask.jpg" alt="" class="mask" />
-			 <h2>school</h2>
+			 <h2>ROSE academy</h2>
 		 </div>
 		</div>
  	</div>
@@ -124,7 +173,7 @@
         <div class="row align-items-center justify-content-between">
 
           <div class="col-md p-5">
-            <h1>CHOOSE PIONEER VALLEY CHRISTIAN ACADEMY</h1>
+            <h1>CHOOSE ROSE ACADEMY</h1>
             <p class="lead">
              My children have been loved and cared for at PVCA. Their minds have been instructed, their bodies have been given an opportunity to grow and flourish, and their souls have been nourished. The teachers consistently go beyond simply cognitive development to address every aspect of their intellectual, relational, physical, and spiritual needs.  Only in a Christian school, like PVCA, is the whole child seen, known, and taught. ~ Megan Hill
             </p>
@@ -186,9 +235,9 @@
 				   <div class="event-date">Jan 29, 2019 | 2:30 PM</div> 
 				   <p>We’re introducing our upcoming event in 2019, with hundreds of fellow participants, colorful sharpies and white shirts. You’ll leave with a colorful souvenir!</p>
 				   <div class="event-count d-sm-flex  align-items-center justify-content-between"> 
-				     <div class="single-count">12 <span>hours</span></div>
-				     <div class="single-count">12 <span>Minutes</span></div>
-				     <div class="single-count">12 <span>Seconds</span></div>
+				     <div class="single-count count">120 <span>hours</span></div>
+				     <div class="single-count count" >240 <span>Minutes</span></div>
+				     <div class="single-count count">500 <span>Seconds</span></div>
 				   </div>
 				</div> 
 			   </div>
@@ -196,22 +245,11 @@
 			       <div class="upcoming-event-carousel  d-sm-flex align-items-center justify-content-between p-3 g-2"> 
 				   
                      <div class="item m-2">
-					    <div class="card" ">
+					    <div class="card" >
 						  <img src="img/img1.jpg" class="card-img-top" alt="...">
 						  <div class="card-body">
-							<h5 class="card-title">Card title</h5>
-						     <p class="card-text">Some quick example</p>
-							  <a href="#" ><div class="custom-btn-one  mt-2">details  <ion-icon name="chevron-forward-outline"></ion-icon></div></a>
-						  </div>
-						</div>
-					 </div>
-					 
-					 <div class="item m-2">
-					    <div class="card" ">
-						  <img src="img/img1.jpg" class="card-img-top" alt="...">
-						  <div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example</p>
+							<h5 class="card-title">Jan 29, 2019 </h5>
+						     <p class="card-text lead">passport to kindergarten-</p>
 							  <a href="#" ><div class="custom-btn-one  mt-2">details  <ion-icon name="chevron-forward-outline"></ion-icon></div></a>
 						  </div>
 						</div>
@@ -221,8 +259,19 @@
 					    <div class="card" >
 						  <img src="img/img1.jpg" class="card-img-top" alt="...">
 						  <div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">Some quick example</p>
+							<h5 class="card-title">Feb 29, 2021 </h5>
+							<p class="card-text lead">national junior honor society induction</p>
+							  <a href="#" ><div class="custom-btn-one  mt-2">details  <ion-icon name="chevron-forward-outline"></ion-icon></div></a>
+						  </div>
+						</div>
+					 </div>
+					 
+					 <div class="item m-2">
+					    <div class="card" >
+						  <img src="img/img1.jpg" class="card-img-top" alt="...">
+						  <div class="card-body">
+							<h5 class="card-title">April 29, 2021 </h5>
+							<p class="card-text lead">passport to kindergarten</p>
 							  <a href="#" ><div class="custom-btn-one  mt-2">details  <ion-icon name="chevron-forward-outline"></ion-icon></div></a>
 						  </div>
 						</div>
@@ -237,9 +286,9 @@
     <section id="weeklyClass" class="p-5 bg-light text-dark">
       <div class="container">
         <div class="row"> 
-		<div class="col-md-6 offset-3 weekly-area">
-		<h2 class="text-center text-dark">Our Weekly Classes</h2>
-        <p class="lead text-center text-dark mb-5">
+		<div class="col-md-6   col-sm-12 weekly-area">
+		<h2 class="text-dark">Our Weekly Classes</h2>
+        <p class="lead text-dark mb-5">
           We are dedicated to creating a community of inspiration and discovery - a place where children, teens and adults learn, create and have fun in a relaxed, professional environment.
         </p>
 		</div>
@@ -379,15 +428,15 @@
     <section id="instructors" class="p-5 instructors-area">
       <div class="container instructors-container-area">
          <div class="row">
-         	<div class="col-md-6 offset-3 instructors-title-area">
-			    <h2 class="text-center text-dark">Our Instructors</h2>
-               <p class="lead text-center text-dark mb-5">
+         	<div class="col-md-6 col-sm-12  instructors-title-area">
+			    <h2 class=" text-dark">Our Instructors</h2>
+               <p class="lead text-dark mb-5">
 			   We have strict criteria when selecting our teachers; they must be native English speakers with a higher degrees and most importantly.
 				</p>
 			</div>
          </div>
         <div class="row g-4">
-          <div class="col-md-3 col-lg-2">
+          <div class="col-md-3 col-lg-2 col-sm-12  text-center ">
 		     <div class="single-instructor"> 
 			     <img
                   src="https://randomuser.me/api/portraits/women/11.jpg"
@@ -400,7 +449,7 @@
 				 </div>
 			 </div>
           </div>
-          <div class="col-md-3 col-lg-2">
+          <div class="col-md-3 col-lg-2 col-sm-12  text-center ">
 		     <div class="single-instructor"> 
 			     <img
                   src="https://randomuser.me/api/portraits/women/17.jpg"
@@ -413,7 +462,7 @@
 				 </div>
 			 </div>
           </div>
-          <div class="col-md-3 col-lg-2">
+          <div class="col-md-3 col-lg-2 col-sm-12  text-center ">
 		     <div class="single-instructor"> 
 			     <img
                   src="https://randomuser.me/api/portraits/men/12.jpg"
@@ -426,7 +475,7 @@
 				 </div>
 			 </div>
           </div>
-          <div class="col-md-3 col-lg-2">
+          <div class="col-md-3 col-lg-2 col-sm-12  text-center ">
 		     <div class="single-instructor"> 
 			     <img
                   src="https://randomuser.me/api/portraits/men/13.jpg"
@@ -439,7 +488,7 @@
 				 </div>
 			 </div>
           </div>
-          <div class="col-md-3 col-lg-2">
+          <div class="col-md-3 col-lg-2 col-sm-12  text-center ">
 		     <div class="single-instructor"> 
 			     <img
                   src="https://randomuser.me/api/portraits/men/14.jpg"
@@ -452,7 +501,7 @@
 				 </div>
 			 </div>
           </div>
-		            <div class="col-md-3 col-lg-2">
+		            <div class="col-md-3 col-lg-2 col-sm-12  text-center ">
 		     <div class="single-instructor"> 
 			     <img
                   src="https://randomuser.me/api/portraits/men/14.jpg"
@@ -529,9 +578,12 @@
       })
     </script>
 
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>	
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
 
 </body>
 </html>
